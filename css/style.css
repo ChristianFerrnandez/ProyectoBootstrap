@@ -1,0 +1,153 @@
+body {
+    background: #a39a9a;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+
+}
+
+.dropdwn {
+    margin: 0 auto;
+}
+
+nav {
+    height: 82px;
+    background: #2c3e50;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    padding: 20px 1 0 80px;
+    width: 150px;
+    height: 80px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    Line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background: #243342;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.text,
+h1,
+p,
+h2,
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presidentext {
+    text-align: center;
+    font-style: italic;
+}
+
+.president, .vicepresident {
+    height: 290px;
+    width: 360px;
+    margin: auto;
+    padding-left: 400px;
+}
+
+
+
+.lotteryT {
+    color: gold;
+}
+
+.paris {
+    margin-left: 380px;
+    height: 350px;
+}
+
+.section {
+    background-image: url('president.jpg');
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.prices {
+    background-color: greenyellow;
+}
+
+tr:hover {
+    background-color: aqua;
+}
+
+h4 {
+    font-family: cursive;
+    text-align: center;
+}
+
+.map {
+    margin-left: 390px;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.values {
+    font-size: 25px;
+
+}
+
+.homes {
+
+    margin-left: auto;
+    height: 290px;
+    width: 360px;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.enjoy {
+    margin-left: 250px
+}
+
+.history {
+    font-size: 25px;
+
+}
